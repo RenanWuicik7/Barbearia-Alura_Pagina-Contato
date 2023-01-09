@@ -117,8 +117,22 @@ form label, form legend form p {
 	width: 50%;
 }
 
-#enviar {
+.enviar {
 	font-weight: bold;
+	width: 40%;
+	padding: 15px 0;
+	background: #3CB371;
+	color: white;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #2E8B57;
+	transform: scale(1.2);
 }
 
 .checkbox {
