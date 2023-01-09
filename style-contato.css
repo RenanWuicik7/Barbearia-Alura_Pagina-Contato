@@ -104,7 +104,7 @@ form {
 	margin: 40px 0;
 }
 
-form label, form legend form p {
+form label, form legend, form p {
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
@@ -137,4 +137,18 @@ form label, form legend form p {
 
 .checkbox {
 	margin: 20px 0;
+}
+
+table {
+	margin: 20px 40px;
+}
+
+thead {
+	background: #555555;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
 }
